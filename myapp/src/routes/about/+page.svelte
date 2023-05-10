@@ -6,8 +6,11 @@
 </head>
 
 <body>
-	<h1>About</h1>
+	<br />
+		<h1 class="heading">About</h1>
 	
+	
+
 	<div class="box">
 		<div class="center">
 			<div>
@@ -16,23 +19,49 @@
 					Questionnaire bias is a type of bias, as implied in the name, that is found in surveys and
 					questionnaires. It can appear from the way a question is worded or designed that can lead
 					one to make a certain decision. There are many different types of questionnaire bias, such
-					as, social desirability bias, acquiescence bias, question order bias, leading questions,
-					and doubled-barreled questions. All of these can create a question that can lead the
-					person answering to respond to the question in a certain way.
+					as, leading questions, and doubled-barreled questions. All of these can create a question
+					that can lead the person answering to respond to the question in a certain way.
 				</p>
 			</div>
 			<hr />
 			<div>
 				<h2><i class="fa-solid fa-arrow-right" /> Common Types of Questionnaire Bias</h2>
 				<p>
-					<b>Social Desirability Bias</b> is when the person answering the question wants to answer in
-					a way that is socially acceptable. This can lead to the person answering the question to answer
-					in a way that is not true to their actual beliefs. This can be seen in questions that ask about
-					sensitive topics, such as, drug use, sexual activity, or other topics that may be seen as taboo.
-					This can also be seen in questions that ask about a person's political beliefs. The person
-					answering the question may not want to answer in a way that is not socially acceptable, so
-					they may answer in a way that is not true to their actual beliefs. This can lead to a bias
-					in the data that is collected from the survey or questionnaire.
+					<b>Leading questions:</b> These are questions that are worded in a way that suggests the
+					desired answer. For example, “Don't you think that our product is the best on the market?”
+					<br />
+					<br />
+					<b>Loaded questions:</b> Questions that are worded in a way that implies a particular
+					point of view. For example, “Have you stopped mistreating your pet?” Implies that you have
+					been mistreating your pet.
+					<br />
+					<br />
+					<b>Double-barreled</b> questions: These are questions that ask two things in one. For
+					example, “Do you think that our company is doing a good job of providing quality products
+					and services at a reasonable price?” This has two questions, so you might agree with one
+					but not the other.
+					<br />
+					<br />
+					<b>Ambiguous questions:</b> These are questions that are unclear or difficult to
+					understand. For example, “Did you enjoy it?” It is unclear what the question is referring
+					to.
+					<br />
+					<br />
+					<b>Vague questions:</b> These are questions that are too general or broad. For example,
+					“How satisfied are you with your experience?” This is a very broad question you see in a
+					lot of surveys, especially with restaurants.
+					<br />
+					<br />
+					<b>Technical questions:</b> These are questions that require specialized knowledge to
+					answer. For example, “What is your opinion on the shift to Wayland from X11?” Most people
+					have no idea what Wayland or X11 is and would be unable to answer and just give a response
+					that sounds correct and isn't how they feel if they knew about Linux display server
+					protocols.
+					<br />
+					<br />
+					<b>Personal questions:</b> These are questions that are too personal or intrusive. For example,
+					“How much money do you make?” People might not feel comfortable sharing that and give a random
+					amount that isn't how much they really make.
 				</p>
 			</div>
 			<hr />
@@ -77,6 +106,13 @@
 		margin-top: 1%;
 		margin-bottom: 1%;
 	}
+	
+	.heading{
+		margin: auto;
+		width: 50%;
+		text-align: center;
+
+	}
 
 	div {
 		margin: 20px;
@@ -97,7 +133,7 @@
 	p {
 		color: var(--text-color);
 		margin: auto;
-		text-indent: 2%;
+		text-indent: 0%;
 	}
 	b {
 		color: var(--caret-color);
