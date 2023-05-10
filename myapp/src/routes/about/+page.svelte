@@ -1,22 +1,17 @@
 <script>
-
 </script>
-
-
 
 <head>
 	<script src="https://kit.fontawesome.com/b47c749bc2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="box">
-	    <div class="center">
-
-
-		
+	<h1>About</h1>
+	
+	<div class="box">
+		<div class="center">
 			<div>
-				
-				<h2><i class="fa-solid fa-arrow-right"></i> What is Questionnaire Bias?</h2>
+				<h2><i class="fa-solid fa-arrow-right" /> What is Questionnaire Bias?</h2>
 				<p>
 					Questionnaire bias is a type of bias, as implied in the name, that is found in surveys and
 					questionnaires. It can appear from the way a question is worded or designed that can lead
@@ -26,9 +21,9 @@
 					person answering to respond to the question in a certain way.
 				</p>
 			</div>
-			<hr>
+			<hr />
 			<div>
-				<h2><i class="fa-solid fa-arrow-right"></i> Common Types of Questionnaire Bias</h2>
+				<h2><i class="fa-solid fa-arrow-right" /> Common Types of Questionnaire Bias</h2>
 				<p>
 					<b>Social Desirability Bias</b> is when the person answering the question wants to answer in
 					a way that is socially acceptable. This can lead to the person answering the question to answer
@@ -40,9 +35,9 @@
 					in the data that is collected from the survey or questionnaire.
 				</p>
 			</div>
-			<hr>
+			<hr />
 			<div>
-				<h2><i class="fa-solid fa-arrow-right"></i> How to create the perfect question.</h2>
+				<h2><i class="fa-solid fa-arrow-right" /> How to create the perfect question.</h2>
 				<p>
 					When writing questions, you want to try and spot and avoid anything that could create
 					avoid leading or double-barreled questions. Using a variety of question formats, such as
