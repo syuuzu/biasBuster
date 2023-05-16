@@ -1,0 +1,50 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+	@apply h-1/2 mx-1.5;
+}
+
+body {
+	@apply bg-pink-gray text-white min-w-fit;
+}
+
+button {
+	@apply px-2.5 py-3 font-medium text-lg bg-pink text-sub-alt-pink rounded-md mt-4 hover:bg-sub-pink transition-all duration-200 ease-in-out;
+}
+
+label {
+	@apply pb-2 text-lg text-center;
+}
+
+textarea {
+	@apply rounded-md p-3 text-sub-alt-pink;
+}
+h1 {
+	@apply text-5xl font-semibold;
+}
+h2 {
+	@apply text-3xl font-medium pb-1 text-center;
+}
+p {
+	@apply text-lg text-center pb-4;
+}
+
+i{
+	@apply px-40
+}
+
+a {
+	@apply text-sub-pink hover:text-pink transition-all duration-200 ease-in-out;
+}
+
+footer{
+	@apply flex flex-col items-center justify-center text-center text-sub-pink  py-8;
+}
+
+form {
+	@apply flex flex-col pt-8 max-w-lg w-full;
+}
