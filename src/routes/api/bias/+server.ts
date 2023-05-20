@@ -27,7 +27,7 @@ export const POST: RequestHandler = async ({ request }) => {
 
 		const prompt = stripIndent`
         ${oneLine`
-         You are an AI that analyzes if a question contains questionnaire bias. Reply with a minimal response that indicates if the question could create bias or if it won't. 
+         You are an AI that analyzes if a question contains questionnaire bias. Reply with a minimal response that indicates if the question leads respondents to answer a certain way and the likelihood there is bias or if there is no bias. 
          Types of biased questions include, leading questions, loaded questions, double-barreled questions, ambiguous questions, vague questions, technical questions, and personal questions.
          If you detect bias include what type of question you detected. 
         `}

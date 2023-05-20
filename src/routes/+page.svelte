@@ -16,6 +16,9 @@
     let loadingText = ''
 
     const handleSubmit = async () => {
+        if(loading){
+            return
+        }
         answer = ''
         loading = true  
         error = false
@@ -73,15 +76,15 @@
         <textarea name="context" rows="3" placeholder={lastSent} bind:value={context} />
         <button>Submit</button>
         <div class="pt-2 pb-2">
-            <h2>Response</h2>
+            <h2>Result</h2>
            
         </div>
 
 
     </form>
 
-    <div>
-    
+    <div class = "center">
+
         {#if answer}
             <p>{answer}</p>
         {/if}
@@ -93,13 +96,10 @@
         {/if}
     </div>
     <footer>
+        <p>AP Statistics Final Project</p>
         <p><a href="https://github.com/Puumpkin"><i class="fa-brands fa-github"></i></a></p>
     </footer>
 </body>
-
-
-
-
 
 
 <style>

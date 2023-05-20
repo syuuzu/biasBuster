@@ -4,12 +4,9 @@
 @tailwind utilities;
 
 html,
-body {
-	@apply h-1/2 mx-1.5;
-}
 
 body {
-	@apply bg-pink-gray text-white min-w-fit;
+	@apply bg-pink-gray text-white self-center;
 }
 
 button {
@@ -30,11 +27,7 @@ h2 {
 	@apply text-3xl font-medium pb-1 text-center;
 }
 p {
-	@apply text-lg text-center pb-4;
-}
-
-i{
-	@apply px-40
+	@apply text-lg text-center max-w-xs w-full;
 }
 
 a {
