@@ -98,7 +98,6 @@
     <p>AP Statistics Final Project</p>
     <p>
       <!-- <a href="https://github.com/Puumpkin"><i class="fa-brands fa-github" /></a -->
-      >
     </p>
   </footer>
 </body>
@@ -108,9 +107,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  a {
-    text-decoration: underline;
   }
 </style>
