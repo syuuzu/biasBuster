@@ -27,9 +27,12 @@ export const POST: RequestHandler = async ({ request }) => {
 
 		const prompt = stripIndent`
         ${oneLine`
-         You are an AI that analyzes if a question contains questionnaire bias. Reply with a minimal response that indicates if the question leads respondents to answer a certain way or if there is no bias. 
-         Types of biased questions include, leading questions, loaded questions, double-barreled questions, ambiguous questions, vague questions, technical questions, and personal questions.
-         If you detect bias include what type of question you detected. 
+		 You are an AI that analyzes if a question contains questionnaire bias. Reply with a minimal response that indicates if the question contains questionnaire bias or if it doesn't. 
+         Types of questionnaire bias include, leading question (worded in a way that suggests the desired answer), loaded question (worded in a way that implies a particular point of view), double-barreled (questions that ask multiple questions), vague (questions that are too general or broad), and personal (questions that are too personal or intrusive). 
+         An example of a leading question bias is "If 18-year-olds can fight and die for our country, shouldn't they be allowed to vote?". 
+		 An example of a loaded question bias is “Have you finally stopped cheating on AP stat tests?” 
+
+		 If you detect bias include what form of questionnaire bias you detected.
         `}
 
         Context: """${context.trim()}"""
