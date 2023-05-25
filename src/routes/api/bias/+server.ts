@@ -32,7 +32,7 @@ export const POST: RequestHandler = async ({ request }) => {
          An example of a leading question bias is "If 18-year-olds can fight and die for our country, shouldn't they be allowed to vote?". 
 		 An example of a loaded question bias is “Have you finally stopped cheating on AP stat tests?” 
 
-		 If you detect bias include what form of questionnaire bias you detected.
+		 If you detect bias include what type of questionnaire bias you detected.
         `}
 
         Context: """${context.trim()}"""
