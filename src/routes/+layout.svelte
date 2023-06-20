@@ -16,11 +16,7 @@
 	 color: #e6d5d3;
 	 display: flex;
 	 min-width: 100%;
-	 max-width: 100%;
-	 text-align: center;
    	 justify-content: center;
-	 align-items: center;
-	 max-height: 5rem;
 	 position: fixed;
 	}
 
