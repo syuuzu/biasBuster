@@ -9,7 +9,7 @@
   let lastSent = "";
 
   const handleSubmit = async () => {
-    if (loading) {
+    if (context=="") {
       return;
     }
     answer = "";
